@@ -7,6 +7,7 @@
   "whitelistedNonPeerDependencies": [
  	"@syncfusion/ej2-base",
 	"@syncfusion/ej2-angular-base",
-        "@syncfusion/ej2-spreadsheet"
+        "@syncfusion/ej2-spreadsheet",
+        "@devg1120/gs-spreadsheet"
   ]
 }
