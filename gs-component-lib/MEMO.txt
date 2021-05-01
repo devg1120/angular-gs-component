@@ -1,4 +1,3 @@
-  cd gs-Component-lib
-  npm i
-  ng build spreadsheet
-  ng serve admin
+npm i
+ng build spreadsheet
+ng serve admin --host 0.0.0.0
