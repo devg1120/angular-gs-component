@@ -1,0 +1,4 @@
+  cd gs-Component-lib
+  npm i
+  ng build spreadsheet
+  ng serve admin
