@@ -19,6 +19,7 @@ ng g application admin -style=scss --routing=true
 ng g library spreadsheet
 ng g library '@gs-common-lib/gs-spreadsheet'
 ng g library '@gs-common-lib/gs-base'
+ng g library '@gs-common-lib/gs-icon'
 ng g library '@gs-common-lib/gs-angular-base'
 
 
@@ -81,6 +82,7 @@ gs-common-lib/
 
 npm i
 ng build @gs-common-lib/gs-spreadsheet
+ng build @gs-common-lib/gs-angular-base
 ng build spreadsheet
 ng serve admin --host 0.0.0.0
 

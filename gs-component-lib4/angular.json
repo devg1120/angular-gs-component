@@ -274,6 +274,41 @@
           }
         }
       }
+    },
+    "@gs-common-lib/gs-icon": {
+      "projectType": "library",
+      "root": "projects/gs-common-lib/gs-icon",
+      "sourceRoot": "projects/gs-common-lib/gs-icon/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/gs-common-lib/gs-icon/tsconfig.lib.json",
+            "project": "projects/gs-common-lib/gs-icon/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/gs-common-lib/gs-icon/src/test.ts",
+            "tsConfig": "projects/gs-common-lib/gs-icon/tsconfig.spec.json",
+            "karmaConfig": "projects/gs-common-lib/gs-icon/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/gs-common-lib/gs-icon/tsconfig.lib.json",
+              "projects/gs-common-lib/gs-icon/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "spreadsheet"
 }

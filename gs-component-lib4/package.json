@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~8.0.0",
     "@angular/platform-browser-dynamic": "~8.0.0",
     "@angular/router": "~8.0.0",
+    "@syncfusion/ej2-spreadsheet": "*",
     "@devg1120/gs-angular-spreadsheet": "./dist/spreadsheet/",
     "@devg1120/gs-spreadsheet": "./dist/gs-common-lib/gs-spreadsheet",
     "@devg1120/gs-angular-base": "./dist/gs-common-lib/gs-angular-base",
