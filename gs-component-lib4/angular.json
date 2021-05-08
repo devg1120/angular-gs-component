@@ -10,7 +10,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/spreadsheet/tsconfig.lib.json",
             "project": "projects/spreadsheet/ng-package.json"
@@ -93,7 +93,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
@@ -177,7 +176,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/gs-common-lib/gs-spreadsheet/tsconfig.lib.json",
             "project": "projects/gs-common-lib/gs-spreadsheet/ng-package.json"
@@ -212,7 +211,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/gs-common-lib/gs-base/tsconfig.lib.json",
             "project": "projects/gs-common-lib/gs-base/ng-package.json"
@@ -247,7 +246,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/gs-common-lib/gs-angular-base/tsconfig.lib.json",
             "project": "projects/gs-common-lib/gs-angular-base/ng-package.json"
@@ -282,7 +281,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/gs-common-lib/gs-icon/tsconfig.lib.json",
             "project": "projects/gs-common-lib/gs-icon/ng-package.json"
